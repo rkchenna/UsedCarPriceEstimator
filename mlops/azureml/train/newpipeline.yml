@@ -51,10 +51,10 @@ jobs:
     search_space:
       n_estimators:
         type: choice
-        values: [10,25,35,45,55]
+        values: [10,25,35,45]
       max_depth:
         type: choice
-        values: [1,3,5,10]
+        values: [1,3,5,10, None]
     objective:
       goal: minimize
       primary_metric: RootMeanSquaredError
