@@ -7,7 +7,7 @@ description: Training Pipeline to predict used car prices using a regression mod
 inputs:
   input:
     type: uri_file
-    path: azureml:used-car-price-data@latest
+    path: azureml:used-cars-price-data@latest
 
 outputs:
   train_data:
